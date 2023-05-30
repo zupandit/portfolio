@@ -23,7 +23,7 @@ function Hero() {
       <HeroContainer>
         <HeroWrapper>
           <HeroLeft>
-            <h1>Hi, I'm YourName</h1>
+            <h1>Hi, I'm Pedro</h1>
             <h5>Frontend Developer</h5>
             <p>
               I design and code beautifully simple things, and I love what I do.
@@ -31,7 +31,7 @@ function Hero() {
           </HeroLeft>
           <HeroRight>
             <Image
-              src="https://raw.githubusercontent.com/gurupawar/website/main/src/Assets/man-svgrepo-com.svg"
+              src="/man-svgrepo-com.svg"
               alt="man-svgrepo"
             />
           </HeroRight>
@@ -40,7 +40,7 @@ function Hero() {
           <ScrollLink>
             Scroll down
             <img
-              src="https://raw.githubusercontent.com/gurupawar/website/main/src/Assets/scroll-down.svg"
+              src="/scroll-down.svg"
               alt="scroll-down"
             />
           </ScrollLink>

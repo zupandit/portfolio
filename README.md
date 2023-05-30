@@ -1,5 +1,5 @@
 **Portfolio**
-Live Preview - [Click Here](https://gurusheshp.vercel.app/)
+Live Preview - [Click Here](https://salesp07.github.io/)
 
 <br/>
 <div align="center">
