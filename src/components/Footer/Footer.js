@@ -22,11 +22,7 @@ const FooterSection = styled.div`
 function Footer() {
   return (
     <FooterSection>
-      <div className="Container">
-        <span>
-          Coded with 💙
-        </span>
-      </div>
+      <div className="Container"/>
     </FooterSection>
   );
 }

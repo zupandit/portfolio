@@ -7,25 +7,24 @@ export const ContactWrapper = styled.div`
 export const Email = styled.div`
   display: flex;
   align-items: center;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: space-around;
+  flex-wrap: wrap;
+  row-gap: 1rem;
 
   span {
     font-size: 1rem;
-    font-weight: 500;
-    margin-bottom: 1rem;
+    font-weight: 400;
   }
 
   @media (min-width: 576px) {
     span {
-      font-size: 1.5rem;
+      font-size: 1.25rem;
     }
   }
   @media (min-width: 992px) {
-    flex-direction: row;
     span {
-      margin-bottom: 0;
-      font-size: 3rem;
+      font-size: 1.5rem;
     }
   }
 `;
