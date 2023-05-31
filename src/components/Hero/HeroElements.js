@@ -42,6 +42,10 @@ export const HeroLeft = styled.div`
   text-align: left;
   flex: 1;
 
+  .h1After {
+    caret-color: transparent;
+  }
+
   h1 {
     font-size: 2.8rem;
     color: #f6f6f6;
