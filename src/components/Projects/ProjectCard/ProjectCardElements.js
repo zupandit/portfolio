@@ -5,7 +5,6 @@ export const Card = styled.div`
   grid-gap: 2rem;
   margin-bottom: 4rem;
   grid-template-columns: 1fr;
-  border-bottom: 1px solid rgb(0, 0, 0);
   padding-bottom: 2rem;
   @media (min-width: 992px) {
     grid-template-columns: 1fr 1fr;
@@ -15,13 +14,10 @@ export const Card = styled.div`
 `;
 
 export const CardLeft = styled.div`
-  background: #151418;
   border-radius: 5px;
-  padding: 5px;
   justify-self: center;
-
   img {
-    border-radius: 3px;
+    border-radius: 5px;
     height: auto;
   }
 `;

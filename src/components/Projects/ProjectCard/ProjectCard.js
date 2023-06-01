@@ -7,11 +7,13 @@ import {
   Stack,
   BtnGroup,
 } from "./ProjectCardElements";
+import ScrollAnimation from "react-animate-on-scroll";
 function ProjectCard() {
   return (
     <>
       {ProjectList.map((list, index) => (
-        <Card key={index}>
+        <ScrollAnimation animateIn="fadeInLeft"  key={index}>
+        <Card>
           <CardLeft>
             <img src={list.img} alt={list.name} />
           </CardLeft>
@@ -42,6 +44,7 @@ function ProjectCard() {
             </BtnGroup>
           </CardRight>
         </Card>
+        </ScrollAnimation>
       ))}
     </>
   );
