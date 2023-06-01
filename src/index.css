@@ -13,6 +13,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background: #fafaff;
   font-weight: 400;
+  overflow-x: hidden;
 }
 
 main {
@@ -145,6 +146,8 @@ video {
 .ProjectWrapper {
   margin-top: -1rem;
 }
+
+
 
 /* ------------------------------------ Media for Container */
 @media (min-width: 576px) {

@@ -2,42 +2,60 @@ import React, { useState } from "react";
 import SocialIcon from "../SocialIcon/SocialIcon";
 import { ContactWrapper, Email } from "./ContactElements";
 import { MdContentCopy } from "react-icons/md";
-import { Snackbar } from "@mui/material";
+import { Tooltip } from "@mui/material";
+import Zoom from '@mui/material/Zoom';
+
+import ScrollAnimation from "react-animate-on-scroll";
 function Contact() {
-  const [showSnackbar, setShowSnackbar] = useState(false);
+  const [showTooltip, setShowTooltip] = useState(false);
   const copyToClipboard = () => {
     navigator.clipboard.writeText("pedro.sales.muniz@gmail.com");
-    setShowSnackbar(true);
+    setShowTooltip(true);
+    setTimeout(() => {
+      setShowTooltip(false);
+    } , 700);
   };
 
   return (
     <ContactWrapper id="contact">
-      <Snackbar
-        anchorOrigin={{ vertical: 'bottom', horizontal: 'center' }}
-        open={showSnackbar}
-        autoHideDuration={2000}
-        onClose={() => setShowSnackbar(false)}
-        message="Copied to clipboard!"
-      />
+
       <div className="Container">
         <div className="SectionTitle">Get In Touch</div>
-        <div className="BigCard">
-          <Email>
-            <div style={{ display: 'flex', alignItems: 'center', columnGap: '20px', rowGap: '10px', flexWrap: 'wrap', justifyContent: 'center' }} >
-              <span>pedro.sales.muniz@gmail.com</span>
-              <MdContentCopy size={25} style={{ cursor: 'pointer' }} onClick={copyToClipboard} />
-            </div>
-            <a
-              className="btn PrimaryBtn"
-              href="mailto:pedro.sales.muniz@gmail.com"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Send Mail
-            </a>
-          </Email>
-        </div>
+        <ScrollAnimation animateIn="fadeIn" >
+          <div className="BigCard">
+            <Email>
+              <div style={{ display: 'flex', alignItems: 'center', columnGap: '20px', rowGap: '10px', flexWrap: 'wrap', justifyContent: 'center' }} >
+                <span>pedro.sales.muniz@gmail.com</span>
+                <Tooltip
+                PopperProps={{
+                  disablePortal: true,
+                }}
+                  open={showTooltip}
+                  onClose={() => setShowTooltip(false)}
+                  title="Copied!"
+                  TransitionComponent={Zoom}
+                  disableFocusListener
+                  disableHoverListener
+                  disableTouchListener
+                  placement="bottom"
+                >
+                  <div>
+                <MdContentCopy size={25} style={{ cursor: 'pointer' }} onClick={copyToClipboard} /></div>
+                </Tooltip>
+              </div>
+              <a
+                className="btn PrimaryBtn"
+                href="mailto:pedro.sales.muniz@gmail.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Send Email
+              </a>
+            </Email>
+          </div>
+        </ScrollAnimation>
         <SocialIcon />
+
       </div>
     </ContactWrapper>
   );
