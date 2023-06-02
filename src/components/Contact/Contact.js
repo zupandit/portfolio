@@ -45,7 +45,7 @@ function Contact() {
                 </Tooltip>
               </div>
               <a
-                className="btn PrimaryBtn"
+                className="btn PrimaryBtn btn-shadow"
                 href="mailto:pedro.sales.muniz@gmail.com"
                 target="_blank"
                 rel="noopener noreferrer"

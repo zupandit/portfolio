@@ -28,7 +28,7 @@ function ProjectCard() {
             </TechCardContainer>
             <BtnGroup>
               <a
-                className="btn btn2 SecondarBtn"
+                className="btn SecondaryBtn btn-shadow"
                 href={list.github_url}
                 target="_blank"
                 rel="noopener noreferrer"
@@ -36,7 +36,7 @@ function ProjectCard() {
                 Github
               </a>
               <a
-                className="btn PrimaryBtn"
+                className="btn PrimaryBtn btn-shadow"
                 href={list.demo_url}
                 target="_blank"
                 rel="noopener noreferrer"
