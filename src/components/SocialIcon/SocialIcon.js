@@ -16,7 +16,6 @@ export const SocialDiv = styled.div`
   a {
     font-size: 2.5rem;
     color: #151418;
-    transition: 0.2s ease-in;
     &:hover {
       color: rgb(57, 134, 250);
     }
