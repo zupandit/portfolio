@@ -61,6 +61,10 @@ export const BtnGroup = styled.div`
 export const TechCardContainer = styled.div`
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
+  @media (min-width: 992px) {
+    justify-content: flex-start;
+  }
 `;
 
 export const TechCard = styled.div`
