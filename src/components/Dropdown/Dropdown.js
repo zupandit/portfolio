@@ -1,6 +1,6 @@
 import React from "react";
 import { FaTimes } from "react-icons/fa";
-import styled from "styled-components";
+import styled from "@emotion/styled";
 import { Link as ScrollLink } from "react-scroll";
 
 const SiderBar = styled.div`
@@ -65,7 +65,6 @@ function Dropdown({ isOpen, toggle }) {
           onClick={toggle}
           className="menu-item"
           to="projects"
-          smooth={true}
         >
           Projects
         </NavLink>
@@ -73,7 +72,6 @@ function Dropdown({ isOpen, toggle }) {
           onClick={toggle}
           className="menu-item"
           to="about"
-          smooth={true}
         >
           About
         </NavLink>
@@ -81,7 +79,6 @@ function Dropdown({ isOpen, toggle }) {
           onClick={toggle}
           className="menu-item"
           to="contact"
-          smooth={true}
         >
           Contact
         </NavLink>

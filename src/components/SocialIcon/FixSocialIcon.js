@@ -1,6 +1,6 @@
 import React from "react";
-import { FaLinkedin, FaDiscord, FaGithub } from "react-icons/fa";
-import styled from "styled-components";
+import { FaLinkedin, FaGithub } from "react-icons/fa";
+import styled from "@emotion/styled";
 
 const Social = styled.div`
   display: block;

@@ -1,7 +1,7 @@
 import React from "react";
-import { FaLinkedin, FaDiscord, FaGithub } from "react-icons/fa";
+import { FaLinkedin, FaGithub } from "react-icons/fa";
 
-import styled from "styled-components";
+import styled from "@emotion/styled";
 
 export const SocialDiv = styled.div`
   margin-top: 2rem;
