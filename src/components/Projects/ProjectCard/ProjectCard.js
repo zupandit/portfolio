@@ -4,7 +4,8 @@ import {
   Card,
   CardLeft,
   CardRight,
-  Stack,
+  TechCardContainer,
+  TechCard,
   BtnGroup,
 } from "./ProjectCardElements";
 import ScrollAnimation from "react-animate-on-scroll";
@@ -20,10 +21,11 @@ function ProjectCard() {
           <CardRight>
             <h4>{list.title}</h4>
             <p>{list.description}</p>
-            <Stack>
-              <span className="stackTitle">Tech Stack -</span>
-              <span className="tags">{list.tech_stack}</span>
-            </Stack>
+            <TechCardContainer>
+              {list.tech_stack.map((tech, index) => (
+                <TechCard key={index}>{tech}</TechCard>
+              ))}
+            </TechCardContainer>
             <BtnGroup>
               <a
                 className="btn btn2 SecondarBtn"
