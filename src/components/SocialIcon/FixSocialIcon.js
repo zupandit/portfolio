@@ -52,7 +52,7 @@ function FixSocialIcon() {
             <FaGithub />
           </a>
         </li>
-        <li className="item">
+        {/* <li className="item">
           <a
             href="https://discord.gg/ehdRp2PfFv"
             target="_blank"
@@ -60,7 +60,7 @@ function FixSocialIcon() {
           >
             <FaDiscord />
           </a>
-        </li>
+        </li> */}
       </ul>
     </Social>
   );

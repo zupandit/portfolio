@@ -53,7 +53,7 @@ function SocialIcon() {
             <FaGithub />
           </a>
         </li>
-        <li className="item">
+        {/* <li className="item">
           <a
             href="https://discord.gg/ehdRp2PfFv"
             target="_blank"
@@ -61,7 +61,7 @@ function SocialIcon() {
           >
             <FaDiscord />
           </a>
-        </li>
+        </li> */}
       </ul>
     </SocialDiv>
   );
