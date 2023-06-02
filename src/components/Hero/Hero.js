@@ -92,7 +92,7 @@ function Hero() {
 
           </HeroLeft>
           <HeroRight>
-            <ScrollAnimation animateIn="fadeIn" >
+            <ScrollAnimation animateIn="fadeIn">
               <Image
                 src="/man-svgrepo-com.svg"
                 alt="man-svgrepo"
@@ -100,7 +100,7 @@ function Hero() {
             </ScrollAnimation>
           </HeroRight>
         </HeroWrapper>
-        {showScrollDown &&<ScrollAnimation animateIn="flipInX" >
+        {showScrollDown &&<ScrollAnimation animateIn="flipInX" offset={0}>
         <ScrollDown to="projects" id="scrollDown">
           <ScrollLink>
             Scroll down
