@@ -5,7 +5,7 @@ export const ProjectList = [
     title: "RENR Safety App",
     description: "A safety application for the Renewable Resources Dept. of BCIT",
     tech_stack: ["React", "Firebase"],
-    github_url: "https://your_project_github_link",
+    github_url: "",
     demo_url: "https://renr-bcit.web.app/",
   },
   {
@@ -23,7 +23,7 @@ export const ProjectList = [
     description: "A pokedex app that displays pokemon data, plays OSTs and makes pokemons dance.",
     tech_stack: ['ReactJs', 'NodeJs', 'MongoDB'],
     github_url: "https://github.com/salesp07/Pokedex-ReactApp",
-    demo_url: "https://mellifluous-basbousa-c69a9d.netlify.app/",
+    demo_url: "https://pokedex-salesp07.netlify.app/",
   },
   {
     img: "/jobDetect.png",
