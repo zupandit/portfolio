@@ -3,7 +3,7 @@ import { Nav, Logo, NavLink, Bars, NavMenu, NavBtn } from "./HeaderElements";
 
 const Header = ({ toggle }) => {
   return (
-    <div className="Container">
+    <div className="Container" style={{padding: 0}}>
       <Nav>
         <Logo to="/">
           <img
