@@ -10,24 +10,33 @@ Live Preview - [Click Here](https://salesp07.github.io/)
 
 # 🛠 Installation and Setup Instructions
 
-Clone down this repository. You will need node.js and git installed globally on your machine..
+1. Clone down this repository. You will need NodeJs and Git installed on your machine..
 
-Installation: `npm install`
+2. Installation: `npm install --legacy-peer-deps`
 
-In the project directory, you can run: `npm start`
-
+3. In the project directory, you can run: `npm start`\
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 # Usage Instructions
 
-Open the project folder and Navigate to `/src/data/ProjectData` and add your projects details.
+1. Open the project folder and Navigate to `/src/assets/data` and add your projects details.
 
-You will find all the components used and you can edit your information accordingly.
+2. You will find all the components used and you can edit your information accordingly.
+
+# Deploy with Github Pages
+
+1. Edit `homepage` property on `package.json` file
+
+   `"homepage": "http://<github-username>.github.io/<github-repo-name>"`
+
+2. Deploy the app
+
+   `npm run deploy`
 
 ## Contribute
 
-Pull Requests are welcome. :)
+Pull Requests are welcome :)
 
 ## Show your support
 

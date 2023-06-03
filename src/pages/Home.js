@@ -12,9 +12,9 @@ function Home() {
       <Hero />
       <Projects />
       <About />
-      <Contact />
-      <Footer />
+      <Contact />      
       <FixSocialIcon />
+      <Footer />
       <ScrollToTop />
     </>
   );
