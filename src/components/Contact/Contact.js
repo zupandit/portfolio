@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import SocialIcon from "../SocialIcon/SocialIcon";
 import { ContactWrapper, Email } from "./ContactElements";
 import { MdContentCopy } from "react-icons/md";
 import { IconButton, Tooltip } from "@mui/material";
@@ -55,7 +54,6 @@ function Contact() {
             </Email>
           </div>
         </ScrollAnimation>
-        <SocialIcon />
 
       </div>
     </ContactWrapper>
