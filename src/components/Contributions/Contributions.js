@@ -1,4 +1,5 @@
-import React, {useState, useEffect} from 'react'
+import React, { useState, useEffect } from 'react'
+import ScrollAnimation from 'react-animate-on-scroll';
 import { FaGithubSquare } from 'react-icons/fa'
 
 
@@ -14,11 +15,13 @@ function Contributions() {
     return () => clearTimeout(timer);
   }, []);
   return (
-    <div className='Container' style={{marginTop: '5rem'}}>
-        <div className="SectionTitle" style={{display: 'flex', alignItems:"center", flexWrap: 'wrap'}}>My Contributions&nbsp;{<FaGithubSquare/>} </div>
-        <div className="BigCard" style={{padding: '0 10px 10px 10px'}}>
+    <div className='Container' style={{ marginTop: '5rem' }}>
+      <div className="SectionTitle" style={{ display: 'flex', alignItems: "center", flexWrap: 'wrap' }}>My Contributions&nbsp;{<FaGithubSquare />} </div>
+      <div className="BigCard" style={{ padding: '0 10px 10px 10px' }}>
+        <ScrollAnimation animateIn="fadeIn" >
           {showComponent && <img alt="github contributions" src={"https://raw.githubusercontent.com/salesp07/salesp07/output/github-contribution-grid-snake.svg?sanitize=true"} />}
-        </div>
+        </ScrollAnimation>
+      </div>
     </div>
   )
 }
