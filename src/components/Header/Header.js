@@ -25,7 +25,7 @@ const Header = ({ toggle }) => {
         <NavBtn>
           <a
             className="btn PrimaryBtn"
-            href="https://github.com/salesp07/"
+            href="https://linkedin.com/in/pedro-sales-muniz"
             target="_blank"
             rel="noopener noreferrer"
           >

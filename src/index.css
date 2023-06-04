@@ -108,9 +108,10 @@ video {
 }
 
 .Container {
-  width: 100%;
+  max-width: 1000px;
   padding-right: 1rem;
   padding-left: 1rem;
+  width: 90%;
   margin-right: auto;
   margin-left: auto;
 }
@@ -125,8 +126,6 @@ video {
   flex-direction: column;
   background: #fff;
   box-shadow: rgba(0, 0, 0, 0.05) 0px 5px 10px;
-  /* box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
-    0 4px 6px -2px rgba(0, 0, 0, 0.05); */
 }
 
 .AboutBio{
@@ -163,7 +162,7 @@ video {
 
 
 /* ------------------------------------ Media for Container */
-@media (min-width: 576px) {
+/* @media (min-width: 576px) {
   .Container {
     max-width: 540px;
   }
@@ -185,4 +184,4 @@ video {
   .Container {
     max-width: 1000px;
   }
-}
+} */
