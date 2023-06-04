@@ -28,7 +28,10 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 1. Edit `homepage` property on `package.json` file
 
-   `"homepage": "http://<github-username>.github.io/<github-repo-name>"`
+   `"homepage": "http://<github-username>.github.io/<github-repo-name>"`\
+   or\
+      `"homepage": "http://<github-username>.github.io/"`
+
 
 2. Deploy the app
 
