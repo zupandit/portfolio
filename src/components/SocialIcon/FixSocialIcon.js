@@ -24,7 +24,7 @@ const Social = styled.div`
     }
   }
 
-  @media screen and (max-width: 850px) {
+  @media screen and (max-width: 1000px) {
     margin-top: 2rem;
     position: relative;
     top: 0;

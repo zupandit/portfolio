@@ -36,7 +36,7 @@ export const CardRight = styled.div`
 
   p {
     font-weight: 400;
-    max-width: 400px;
+    max-width: 95%;
     margin-top: 10px;
     margin-bottom: 1rem;
     color: rgba(0, 0, 0, 0.815);
