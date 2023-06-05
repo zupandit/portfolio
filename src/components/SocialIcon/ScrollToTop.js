@@ -37,14 +37,11 @@ function ScrollToTop() {
     }, []);
 
     return (
-        shouldRender ?
-        <Tooltip title='Scroll to top' placement='top' open={open} onOpen={() => setOpen(true)} onClose={() => setOpen(false)}>
-            <StyledIconButton size='large' aria-label='scroll to top' onClick={handleClick}>
+        <Tooltip title='Scroll to top' placement='top' open={open} onOpen={() => setOpen(true)} onClose={() => setOpen(false)} className={`animated ${shouldRender ? 'fadeIn' : 'fadeOut'}`}>
+            <StyledIconButton size='large' aria-label='scroll to top' onClick={handleClick} >
                 <StyledArrowIcon fontSize={40} />
             </StyledIconButton>
         </Tooltip>
-        :
-        <></>
     )
 }
 
