@@ -15,7 +15,7 @@ export const ProjectList = [
       "An app where users can purchase online therapy sessions and chat with their therapists.",
     tech_stack: ['HTML', 'CSS', 'NodeJs', 'MongoDB', 'SocketIo'],
     github_url: "https://github.com/salesp07/MyMind---Copy",
-    demo_url: "https://mymindweb.onrender.com/",
+    demo_url: "https://mymindweb.vercel.app/",
   },
   {
     img: "/pokedex-responsive.png",

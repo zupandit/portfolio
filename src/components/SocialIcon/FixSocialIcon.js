@@ -1,8 +1,9 @@
 import React from "react";
 import { FaLinkedin, FaGithub } from "react-icons/fa";
 import styled from "@emotion/styled";
+import ScrollAnimation from "react-animate-on-scroll";
 
-const Social = styled.div`
+const SocialContainer = styled.div`
   position: fixed;
   top: 48%;
   left: 1.5rem;
@@ -52,28 +53,30 @@ const Social = styled.div`
 `;
 function FixSocialIcon() {
   return (
-    <Social>
-      <ul>
-        <li className="item">
-          <a
-            href="https://www.linkedin.com/in/pedro-sales-muniz"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <FaLinkedin />
-          </a>
-        </li>
-        <li className="item">
-          <a
-            href="https://github.com/salesp07"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <FaGithub />
-          </a>
-        </li>
-      </ul>
-    </Social>
+    <SocialContainer>
+      <ScrollAnimation animateIn="fadeIn" animateOnce={true}>
+        <ul>
+          <li className="item">
+            <a
+              href="https://www.linkedin.com/in/pedro-sales-muniz"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaLinkedin />
+            </a>
+          </li>
+          <li className="item">
+            <a
+              href="https://github.com/salesp07"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaGithub />
+            </a>
+          </li>
+        </ul>
+      </ScrollAnimation>
+    </SocialContainer>
   );
 }
 
