@@ -10,7 +10,7 @@ Live Preview - [Click Here](https://salesp07.github.io/)
 
 # 🛠 Installation and Setup Instructions
 
-1. Clone down this repository. You will need NodeJs and Git installed on your machine..
+1. Fork and clone this repository. You will need NodeJs and Git installed on your machine..
 
 2. Installation: `npm install --legacy-peer-deps`
 
@@ -26,14 +26,13 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 # Deploy with Github Pages
 
-1. Edit `homepage` property on `package.json` file
+1. Name your fork `<your-github-username>.github.io`
+2. Edit the `homepage` property on your `package.json` file
 
-   `"homepage": "http://<github-username>.github.io/<github-repo-name>"`\
-   or\
-      `"homepage": "http://<github-username>.github.io/"`
+      `"homepage": "http://<your-github-username>.github.io/"`
 
 
-2. Deploy the app
+3. Deploy the app
 
    `npm run deploy`
 
