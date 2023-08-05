@@ -3,7 +3,8 @@ export const ProjectList = [
   {
     img: "/renr-responsive.png",
     title: "RENR Safety App",
-    description: "A safety application for the Renewable Resources Dept. of BCIT",
+    description:
+      "A safety application for the Renewable Resources Dept. of BCIT",
     tech_stack: ["React", "Firebase"],
     github_url: "",
     demo_url: "https://renr-bcit.web.app/",
@@ -13,23 +14,25 @@ export const ProjectList = [
     title: "MyMind",
     description:
       "An app where users can purchase online therapy sessions and chat with their therapists.",
-    tech_stack: ['HTML', 'CSS', 'NodeJs', 'MongoDB', 'SocketIo'],
+    tech_stack: ["HTML", "CSS", "NodeJs", "MongoDB", "SocketIo"],
     github_url: "https://github.com/salesp07/MyMind---Copy",
     demo_url: "https://mymindweb.vercel.app/",
   },
   {
     img: "/pokedex-responsive.png",
     title: "Pokedex",
-    description: "A pokedex app that displays pokemon data, plays OSTs and makes pokemons dance.",
-    tech_stack: ['ReactJs', 'NodeJs', 'MongoDB'],
+    description:
+      "A pokedex app that displays pokemon data, plays OSTs and makes pokemons dance.",
+    tech_stack: ["ReactJs", "NodeJs", "MongoDB"],
     github_url: "https://github.com/salesp07/Pokedex-ReactApp",
     demo_url: "https://pokedex-salesp07.netlify.app/",
   },
   {
     img: "/jobDetect.png",
     title: "JobDetect",
-    description: "An app to detect if a job posting is a scam or not using its description.",
-    tech_stack: ['Python', 'Flask', 'NodeJs', 'MongoDB'],
+    description:
+      "An app to detect if a job posting is a scam or not using its description.",
+    tech_stack: ["Python", "Flask", "NodeJs", "MongoDB"],
     github_url: "https://github.com/salesp07/JobDetectNode",
     demo_url: "https://jobdetective.onrender.com/",
   },
@@ -55,8 +58,8 @@ export const stackList = [
     name: "ReactJS",
   },
   {
-    img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-original.svg",
-    name: "Bootstrap",
+    img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg",
+    name: "Typescript",
   },
   {
     img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg",
@@ -97,6 +100,10 @@ export const stackList = [
   {
     img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original.svg",
     name: "MySQL",
+  },
+  {
+    img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-original.svg",
+    name: "Bootstrap",
   },
   {
     img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/materialui/materialui-original.svg",
