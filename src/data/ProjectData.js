@@ -1,6 +1,15 @@
 // --------------------------------------- Project List
 export const ProjectList = [
   {
+    img: "/ykte-feature-graphic.png",
+    title: "YouKnowTheEnding",
+    description:
+      "A cross-platform mobile game (in closed testing) where players try to find the missing pieces of a story.",
+    tech_stack: ["React Native", "Google Cloud", "NextJs", "TailwindCSS"],
+    github_url: "",
+    demo_url: "https://youknowtheending.net/",
+  },
+  {
     img: "/renr-responsive.png",
     title: "RENR Safety App",
     description:
@@ -119,7 +128,7 @@ export const stackList = [
   },
   {
     img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/tailwindcss/tailwindcss-plain.svg",
-    name: "Tailwind",
+    name: "TailwindCSS",
   },
   {
     img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/vscode/vscode-original.svg",
