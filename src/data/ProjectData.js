@@ -58,6 +58,10 @@ export const stackList = [
     name: "ReactJS",
   },
   {
+    img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/nextjs/nextjs-original.svg",
+    name: "NextJs",
+  },
+  {
     img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg",
     name: "Typescript",
   },
@@ -112,6 +116,10 @@ export const stackList = [
   {
     img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/figma/figma-original.svg",
     name: "Figma",
+  },
+  {
+    img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/tailwindcss/tailwindcss-plain.svg",
+    name: "Tailwind",
   },
   {
     img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/vscode/vscode-original.svg",
