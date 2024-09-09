@@ -1,7 +1,7 @@
 // --------------------------------------- Project List
 export const ProjectList = [
   {
-    img: "/and.png",
+    img: `${process.env.PUBLIC_URL}/and.png`,
     title: "AND: Automatic Plate Detector",
     description:
       "A Novel Deep Learning based approach to automatically detect and run number plates. Perfect for policing. With AND, you can be sure to not let any criminals roam around on our roads!",
