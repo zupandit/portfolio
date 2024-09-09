@@ -1,50 +1,41 @@
 // --------------------------------------- Project List
 export const ProjectList = [
   {
-    img: "/ykte-feature-graphic.png",
-    title: "YouKnowTheEnding",
+    img: "/and.png",
+    title: "AND: Automatic Plate Detector",
     description:
-      "A cross-platform mobile game (in closed testing) where players try to find the missing pieces of a story.",
-    tech_stack: ["React Native", "Google Cloud", "NextJs", "TailwindCSS"],
-    github_url: "",
-    demo_url: "https://youknowtheending.net/",
+      "A Novel Deep Learning based approach to automatically detect and run number plates. Perfect for policing. With AND, you can be sure to not let any criminals roam around on our roads!",
+    tech_stack: ["YoloV8", "OpenCV", "SQLAlchemy", "OpenOCR", "Flask"],
+    github_url: "https://github.com/zupandit/Automatic_License_Plate_Detector",
+    demo_url: "",
   },
   {
     img: "/renr-responsive.png",
-    title: "RENR Safety App",
+    title: "Tutor Connect",
     description:
-      "A safety application for the Renewable Resources Dept. of BCIT",
-    tech_stack: ["React", "Firebase"],
+      "(Under Development) Allows Tutors to schedule and manage students easily. Track hours, lessons, all in one place. A tutor's constant buddy.",
+    tech_stack: ["React", "MongoDB", "Express", "Bootstrap"],
     github_url: "",
-    demo_url: "https://renr-bcit.web.app/",
+    demo_url: "",
   },
   {
-    img: "/mymind-responsive.png",
-    title: "MyMind",
+    img: "/movieReview.png",
+    title: "Movie Review",
     description:
-      "An app where users can purchase online therapy sessions and chat with their therapists.",
-    tech_stack: ["HTML", "CSS", "NodeJs", "MongoDB", "SocketIo"],
-    github_url: "https://github.com/salesp07/MyMind---Copy",
-    demo_url: "https://mymindweb.vercel.app/",
+      "A full stack application to rate and comment on movies.",
+    tech_stack: ["MongoDB", "Express", "JS"],
+    github_url: "https://github.com/zupandit/Movie_Review_FullStack",
+    demo_url: "",
   },
   {
-    img: "/pokedex-responsive.png",
-    title: "Pokedex",
+    img: "/SelfCheckout.png",
+    title: "Self Checkout Station",
     description:
-      "A pokedex app that displays pokemon data, plays OSTs and makes pokemons dance.",
-    tech_stack: ["ReactJs", "NodeJs", "MongoDB"],
-    github_url: "https://github.com/salesp07/Pokedex-ReactApp",
-    demo_url: "https://pokedex-salesp07.netlify.app/",
-  },
-  {
-    img: "/jobDetect.png",
-    title: "JobDetect",
-    description:
-      "An app to detect if a job posting is a scam or not using its description.",
-    tech_stack: ["Python", "Flask", "NodeJs", "MongoDB"],
-    github_url: "https://github.com/salesp07/JobDetectNode",
-    demo_url: "https://jobdetective.onrender.com/",
-  },
+      "Developed a Self Checkout Station for a groccery store as part of a group project with over 21 teammates.",
+    tech_stack: ["Java"],
+    github_url: "https://github.com/farisalhi/SENG300_Project_Group5",
+    demo_url: "",
+  }
 ];
 
 // --------------------------------------- Skills
@@ -67,32 +58,12 @@ export const stackList = [
     name: "ReactJS",
   },
   {
-    img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/nextjs/nextjs-original.svg",
-    name: "NextJs",
-  },
-  {
-    img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg",
-    name: "Typescript",
-  },
-  {
     img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg",
     name: "Git",
   },
   {
-    img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg",
-    name: "React Native",
-  },
-  {
     img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg",
     name: "NodeJS",
-  },
-  {
-    img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/firebase/firebase-plain.svg",
-    name: "Firebase",
-  },
-  {
-    img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original.svg",
-    name: "MongoDB",
   },
   {
     img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg",
@@ -119,19 +90,39 @@ export const stackList = [
     name: "Bootstrap",
   },
   {
-    img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/materialui/materialui-original.svg",
-    name: "Material UI",
-  },
-  {
     img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/figma/figma-original.svg",
     name: "Figma",
-  },
-  {
-    img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/tailwindcss/tailwindcss-plain.svg",
-    name: "TailwindCSS",
   },
   {
     img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/vscode/vscode-original.svg",
     name: "VS Code",
   },
+  {
+    img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original.svg",
+    name: "Express",
+  },
+  {
+    img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/opencv/opencv-original.svg",
+    name: "OpenCV",
+  },
+  {
+    img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original.svg",
+    name: "Docker",
+  },
+  {
+    img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/sqlalchemy/sqlalchemy-original.svg",
+    name: "SQLAlchemy",
+  },
+  {
+    img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/selenium/selenium-original.svg",
+    name: "Selenium",
+  },
+  {
+    img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/pytorch/pytorch-original.svg",
+    name: "PyTorch",
+  },
+  {
+    img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/digitalocean/digitalocean-original.svg",
+    name: "Digital Ocean",
+  }
 ];

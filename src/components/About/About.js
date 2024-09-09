@@ -23,20 +23,22 @@ function About() {
         </ScrollAnimation>
           <div className="AboutBio">
             <ScrollAnimation animateIn="fadeInLeft">
-            Hello! My name is <strong>Pedro Muniz</strong>. I'm originally from Brazil and have been living in Canada for the past three years. During my time here, I gained valuable experience through various entry-level positions, which greatly enhanced my work ethic, communication skills, and adaptability.
+            Hello! My name is <strong>Zaid Nissar</strong>. I'm a 3rd year Computer Science Student at the University of Calgary in Canada. 
+            Currently, I am working as an AI/ML Research Intern at the Advanced Database Systems and Applications (ADSA) Lab in Calgary, AB.
             </ScrollAnimation>
 
             <br /><br />
             
             <ScrollAnimation animateIn="fadeInLeft">
-            My journey into the world of technology began with a strong passion for problem-solving, which led me to pursue the Computer Systems Technology program. Despite its challenges, I remained determined and forged lasting friendships that supported me throughout this demanding program.
-            Throughout my studies at BCIT, I had the opportunity to engage in fascinating projects. Notably, I contributed to the development of the RENR Safety App and MyMind, projects that garnered recognition from my colleagues, instructors, and clients alike.
+            My journey into the world of technology began with a strong passion for problem-solving, which led me to pursue Computer Science. 
+            My experience at the ADSA Lab has taught me a lot, from over coming technical challanges to work place management.  
             </ScrollAnimation>
 
             <br /><br />
 
             <ScrollAnimation animateIn="fadeInLeft">
-              Working collaboratively within a team towards a shared objective has been an incredibly rewarding and unique experience for me. I am eager to continue exploring exciting projects in the future, with a particular interest in web development and cross-platform mobile development.
+              Working collaboratively within a team towards a shared objective has been an incredibly rewarding and unique experience for me. 
+              I am eager to learn more as an incoming Intern. 
               <div className="tagline2">
                 I have become confident using the following technologies:
               </div>
