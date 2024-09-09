@@ -17,7 +17,7 @@ function About() {
         <div className="BigCard">
         <ScrollAnimation animateIn="fadeInLeft">
           <Image
-            src="/man-svgrepo-com.svg"
+            src={`${process.env.PUBLIC_URL}/man-svgrepo-com.svg`} 
             alt="man-svgrepo"
           />
         </ScrollAnimation>
@@ -31,7 +31,7 @@ function About() {
             
             <ScrollAnimation animateIn="fadeInLeft">
             My journey into the world of technology began with a strong passion for problem-solving, which led me to pursue Computer Science. 
-            My experience at the ADSA Lab has taught me a lot, from over coming technical challanges to work place management.  
+            My experience at the ADSA Lab has taught me a lot, from over coming technical challanges to work place management. 
             </ScrollAnimation>
 
             <br /><br />

@@ -10,7 +10,7 @@ export const ProjectList = [
     demo_url: "",
   },
   {
-    img: "/renr-responsive.png",
+    img: `${process.env.PUBLIC_URL}/renr-responsive.png`,
     title: "Tutor Connect",
     description:
       "(Under Development) Allows Tutors to schedule and manage students easily. Track hours, lessons, all in one place. A tutor's constant buddy.",
@@ -19,7 +19,7 @@ export const ProjectList = [
     demo_url: "",
   },
   {
-    img: "/movieReview.png",
+    img: `${process.env.PUBLIC_URL}/movieReview.png`,
     title: "Movie Review",
     description:
       "A full stack application to rate and comment on movies.",
@@ -28,7 +28,7 @@ export const ProjectList = [
     demo_url: "",
   },
   {
-    img: "/SelfCheckout.png",
+    img: `${process.env.PUBLIC_URL}/SelfCheckout.png`,
     title: "Self Checkout Station",
     description:
       "Developed a Self Checkout Station for a groccery store as part of a group project with over 21 teammates.",

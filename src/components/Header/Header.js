@@ -7,7 +7,7 @@ const Header = ({ toggle }) => {
       <Nav>
         <Logo to="/">
           <img
-            src="/zn.jpg"
+            src={`${process.env.PUBLIC_URL}/zn.jpg`}
             alt="logo"
           />
         </Logo>
