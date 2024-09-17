@@ -10,6 +10,16 @@ export const ProjectList = [
     demo_url: "",
   },
   {
+    img: `${process.env.PUBLIC_URL}/travelBlog.png`,
+    title: "Travel Blog",
+    description:
+      "Follow my travels around the world!",
+    tech_stack: ["React", "CSS", "Netlify"],
+    github_url: "https://github.com/zupandit/travelBlog",
+    demo_url: "https://zaidtravels.netlify.app/", 
+  }
+  ,
+  {
     img: `${process.env.PUBLIC_URL}/renr-responsive.png`,
     title: "Tutor Connect",
     description:
